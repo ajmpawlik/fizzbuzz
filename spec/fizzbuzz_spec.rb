@@ -13,4 +13,7 @@ describe 'fizzbuzz' do
   it 'returns itself if not mulitple of 3 or 5' do
     expect(fizzbuzz(8)).to eq 8
   end
+  it 'returns "fizz" when passed 12' do
+    expect(fizzbuzz(12)).to eq 'fizz'
+  end
 end
